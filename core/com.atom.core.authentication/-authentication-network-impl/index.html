@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>AuthenticationNetworkImpl</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            core
+                    </a>
+            </div>
+            <div class="library-version">
+1.19.1            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":core:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="core::com.atom.core.authentication/AuthenticationNetworkImpl///PointingToDeclaration//197447377">
+  <div class="breadcrumbs"><a href="../../../index.html">core</a><span class="delimiter">/</span><a href="../index.html">com.atom.core.authentication</a><span class="delimiter">/</span><span class="current">AuthenticationNetworkImpl</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Authentication</span><wbr></wbr><span>Network</span><wbr></wbr><span><span>Impl</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">AuthenticationNetworkImpl</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span> : <a href="../../com.atom.core/-base-network-impl/index.html">BaseNetworkImpl</a>, <a href="../../com.atom.core.iNetwork/-i-authentication-network/index.html">IAuthenticationNetwork</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1986676687%2FConstructors%2F197447377" anchor-label="AuthenticationNetworkImpl" id="1986676687%2FConstructors%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-authentication-network-impl.html"><span>Authentication</span><wbr></wbr><span>Network</span><wbr></wbr><span><span>Impl</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1986676687%2FConstructors%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1585996320%2FProperties%2F197447377" anchor-label="apiEndPoint" id="1585996320%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/api-end-point.html"><span>api</span><wbr></wbr><span>End</span><wbr></wbr><span><span>Point</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1585996320%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="../../com.atom.core/-base-network-impl/api-end-point.html">apiEndPoint</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1223954934%2FProperties%2F197447377" anchor-label="apiErrorMessage" id="1223954934%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/api-error-message.html"><span>api</span><wbr></wbr><span>Error</span><wbr></wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1223954934%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">lateinit override </span><span class="token keyword">var </span><a href="../../com.atom.core/-base-network-impl/api-error-message.html">apiErrorMessage</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1022028391%2FProperties%2F197447377" anchor-label="apiHttpHeaders" id="1022028391%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/api-http-headers.html"><span>api</span><wbr></wbr><span>Http</span><wbr></wbr><span><span>Headers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1022028391%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">lateinit override </span><span class="token keyword">var </span><a href="../../com.atom.core/-base-network-impl/api-http-headers.html">apiHttpHeaders</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-hash-map/index.html">HashMap</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-391559892%2FProperties%2F197447377" anchor-label="apiHttpResponse" id="-391559892%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/api-http-response.html"><span>api</span><wbr></wbr><span>Http</span><wbr></wbr><span><span>Response</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-391559892%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">lateinit override </span><span class="token keyword">var </span><a href="../../com.atom.core/-base-network-impl/api-http-response.html">apiHttpResponse</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1409305663%2FProperties%2F197447377" anchor-label="apiHttpResponseCode" id="1409305663%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/api-http-response-code.html"><span>api</span><wbr></wbr><span>Http</span><wbr></wbr><span>Response</span><wbr></wbr><span><span>Code</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1409305663%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">var </span><a href="../../com.atom.core/-base-network-impl/api-http-response-code.html">apiHttpResponseCode</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1987141172%2FProperties%2F197447377" anchor-label="apiMethod" id="1987141172%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/api-method.html"><span>api</span><wbr></wbr><span><span>Method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1987141172%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">lateinit override </span><span class="token keyword">var </span><a href="../../com.atom.core/-base-network-impl/api-method.html">apiMethod</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1897162542%2FProperties%2F197447377" anchor-label="apiParams" id="1897162542%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="api-params.html"><span>api</span><wbr></wbr><span><span>Params</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1897162542%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">var </span><a href="api-params.html">apiParams</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-linked-hash-map/index.html">LinkedHashMap</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1367414173%2FProperties%2F197447377" anchor-label="apiRequestType" id="1367414173%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="api-request-type.html"><span>api</span><wbr></wbr><span>Request</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1367414173%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">var </span><a href="api-request-type.html">apiRequestType</a><span class="token operator">: </span><a href="../../com.atom.core.iNetwork/-i-base-network/-request-type/index.html">IBaseNetwork.RequestType</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1504893963%2FProperties%2F197447377" anchor-label="apiSuccessCode" id="-1504893963%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/api-success-code.html"><span>api</span><wbr></wbr><span>Success</span><wbr></wbr><span><span>Code</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1504893963%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="../../com.atom.core/-base-network-impl/api-success-code.html">apiSuccessCode</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">1</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="343568983%2FProperties%2F197447377" anchor-label="apiUrl" id="343568983%2FProperties%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="api-url.html"><span>api</span><wbr></wbr><span><span>Url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="343568983%2FProperties%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">lateinit override </span><span class="token keyword">var </span><a href="api-url.html">apiUrl</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="876042070%2FFunctions%2F197447377" anchor-label="authenticate" id="876042070%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="authenticate.html"><span><span>authenticate</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="876042070%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="authenticate.html"><span class="token function">authenticate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">refreshToken<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.atom.core.models/-access-token/index.html">AccessToken</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1517298869%2FFunctions%2F197447377" anchor-label="generateUrlFromParams" id="-1517298869%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/generate-url-from-params.html"><span>generate</span><wbr></wbr><span>Url</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Params</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1517298869%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../../com.atom.core/-base-network-impl/generate-url-from-params.html"><span class="token function">generateUrlFromParams</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">map<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-hash-map/index.html">HashMap</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-714994142%2FFunctions%2F197447377" anchor-label="getAccessToken" id="-714994142%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-access-token.html"><span>get</span><wbr></wbr><span>Access</span><wbr></wbr><span><span>Token</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-714994142%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="get-access-token.html"><span class="token function">getAccessToken</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">secretKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">refreshToken<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.atom.core.models/-access-token/index.html">AccessToken</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="894441567%2FFunctions%2F197447377" anchor-label="getKoin" id="894441567%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-authentication-service-impl/index.html#894441567%2FFunctions%2F197447377"><span>get</span><wbr></wbr><span><span>Koin</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="894441567%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../-authentication-service-impl/index.html#894441567%2FFunctions%2F197447377"><span class="token function">getKoin</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="org.koin.core/Koin///PointingToDeclaration/">Koin</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-328139631%2FFunctions%2F197447377" anchor-label="request" id="-328139631%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/request.html"><span><span>request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-328139631%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../../com.atom.core/-base-network-impl/request.html">T</a><span class="token operator">&gt; </span><a href="../../com.atom.core/-base-network-impl/request.html"><span class="token function">request</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">params<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-linked-hash-map/index.html">LinkedHashMap</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">headers<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-hash-map/index.html">HashMap</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">type<span class="token operator">: </span><a href="../../com.atom.core/-base-network-impl/request.html">T</a><span class="token punctuation">, </span></span><span class="parameter ">parameterizedType<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/reflect/ParameterizedType.html">ParameterizedType</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.atom.core/-base-network-impl/request.html">T</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1125649194%2FFunctions%2F197447377" anchor-label="requestFromServerForAccessToken" id="-1125649194%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.atom.core/-base-network-impl/request-from-server-for-access-token.html"><span>request</span><wbr></wbr><span>From</span><wbr></wbr><span>Server</span><wbr></wbr><span>For</span><wbr></wbr><span>Access</span><wbr></wbr><span><span>Token</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1125649194%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="../../com.atom.core/-base-network-impl/request-from-server-for-access-token.html"><span class="token function">requestFromServerForAccessToken</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">params<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-linked-hash-map/index.html">LinkedHashMap</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">headers<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-hash-map/index.html">HashMap</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.atom.core.models/-api-envelope/index.html">ApiEnvelope</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

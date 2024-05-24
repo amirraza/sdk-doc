@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../../index.html">
+                            core
+                    </a>
+            </div>
+            <div class="library-version">
+1.19.1            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":core:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="core::com.atom.core.models/AtomConfiguration.Builder///PointingToDeclaration//197447377">
+  <div class="breadcrumbs"><a href="../../../../index.html">core</a><span class="delimiter">/</span><a href="../../index.html">com.atom.core.models</a><span class="delimiter">/</span><a href="../index.html">AtomConfiguration</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">secretKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><p class="paragraph">AtomConfiguration Builder</p><p class="paragraph">Used to build a <a href="../index.html">AtomConfiguration</a> object followed by .build</p><pre>
+// Example
+AtomConfiguration.Builder atomConfigurationBuilder = new AtomConfiguration.Builder("YOUR_SECRET_KEY");
+atomConfigurationBuilder.build();
+</pre> *</div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-1391882977%2FConstructors%2F197447377" anchor-label="Builder" id="-1391882977%2FConstructors%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-builder.html"><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1391882977%2FConstructors%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">secretKey<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-768550606%2FFunctions%2F197447377" anchor-label="build" id="-768550606%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="build.html"><span><span>build</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-768550606%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="build.html"><span class="token function">build</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../index.html">AtomConfiguration</a></div><div class="brief "><p class="paragraph">Initializes a new object of AtomConfiguration.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1270323204%2FFunctions%2F197447377" anchor-label="disableAnalytics" id="-1270323204%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="disable-analytics.html"><span>disable</span><wbr></wbr><span><span>Analytics</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1270323204%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="disable-analytics.html"><span class="token function">disableAnalytics</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">AtomConfiguration.Builder</a></div><div class="brief "><p class="paragraph">disableAnalytics used to disable analytics collected by Atom SDK.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1929949379%2FFunctions%2F197447377" anchor-label="persistVPNDetails" id="1929949379%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="persist-v-p-n-details.html"><span>persist</span><wbr></wbr><span><span>VPNDetails</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1929949379%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="persist-v-p-n-details.html"><span class="token function">persistVPNDetails</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">persistVPNDetails<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">AtomConfiguration.Builder</a></div><div class="brief "><p class="paragraph">persistVPNDetails used to store last VPNProperties and ConnectionDetails.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1077464724%2FFunctions%2F197447377" anchor-label="setBaseUrl" id="-1077464724%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-base-url.html"><span>set</span><wbr></wbr><span>Base</span><wbr></wbr><span><span>Url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1077464724%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-base-url.html"><span class="token function">setBaseUrl</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">baseUrl<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/net/URL.html">URL</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">AtomConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Sets the baseUrl used by AtomSDK for all calls</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1561525010%2FFunctions%2F197447377" anchor-label="setNotification" id="-1561525010%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-notification.html"><span>set</span><wbr></wbr><span><span>Notification</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1561525010%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-notification.html"><span class="token function">setNotification</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">atomNotification<span class="token operator">: </span><a href="../../-atom-notification/index.html">AtomNotification</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">AtomConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Sets the VPN Notification</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1250520517%2FFunctions%2F197447377" anchor-label="setSDKUserType" id="-1250520517%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-s-d-k-user-type.html"><span>set</span><wbr></wbr><span>SDKUser</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1250520517%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-s-d-k-user-type.html"><span class="token function">setSDKUserType</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">SDKUserType<span class="token operator">: </span><a href="../../-user-type/index.html">UserType</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">AtomConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Sets the SDKUserType used by AtomSDK to offer Atom SDK according to usertype.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="521191478%2FFunctions%2F197447377" anchor-label="setVpnInterfaceName" id="521191478%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-vpn-interface-name.html"><span>set</span><wbr></wbr><span>Vpn</span><wbr></wbr><span>Interface</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="521191478%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-vpn-interface-name.html"><span class="token function">setVpnInterfaceName</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">vpnInterfaceName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">AtomConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Sets the VPN interface name</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-18971432%2FFunctions%2F197447377" anchor-label="setVpnRemoteIdentifier" id="-18971432%2FFunctions%2F197447377" data-filterable-set=":core:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":core:dokkaHtml/release" data-filterable-set=":core:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-vpn-remote-identifier.html"><span>set</span><wbr></wbr><span>Vpn</span><wbr></wbr><span>Remote</span><wbr></wbr><span><span>Identifier</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-18971432%2FFunctions%2F197447377"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-vpn-remote-identifier.html"><span class="token function">setVpnRemoteIdentifier</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">vpnRemoteIdentifier<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">AtomConfiguration.Builder</a></div><div class="brief "><p class="paragraph">Sets the VPN Remote Identifier IKEV endpoint for authentication purposes</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
